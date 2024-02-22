@@ -8,6 +8,7 @@ const password = process.env.DEMO_PASSWORD;
 
 const LoginAutomation = async () => {
     const driver = await new Builder().forBrowser('chrome').build();
+    driver.manage().window().maximize();
     try {
         console.log('[+] Opening DemoQA... ');
         await driver.get('https://demoqa.com/login');
