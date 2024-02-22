@@ -1,0 +1,18 @@
+{
+  "name": "login-automation",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Abhinav Aditya",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "assert": "^2.1.0",
+    "dotenv": "^16.4.5",
+    "selenium-webdriver": "^4.18.1"
+  }
+}
